@@ -35,10 +35,10 @@ def display_data(user_city_input):
     while True:
         if user_city_input in weather_data:
             print(f"Current Weather In, {user_city_input}:")
-            print(f"Temperature: {weather_data[user_city_input]["temperature"]}")
-            print(f"Conditions: {weather_data[user_city_input]["conditions"]}")
-            print(f"Wind Speed: {weather_data[user_city_input]["wind_speed"]}")
-            print(f"Humidity: {weather_data[user_city_input]["humidity"]}")
+            print(f"Temperature: {weather_data[user_city_input]['temperature']}")
+            print(f"Conditions: {weather_data[user_city_input]['conditions']}")
+            print(f"Wind Speed: {weather_data[user_city_input]['wind_speed']}")
+            print(f"Humidity: {weather_data[user_city_input]['humidity']}")
             print("--------------------")
             break
         else:
@@ -49,4 +49,3 @@ display_data(user_city_input)
 
 #* Thank You Message
 print("Thank you for using the 'City Weather App'! \n")
-
